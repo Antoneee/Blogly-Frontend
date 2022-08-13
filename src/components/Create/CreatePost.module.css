@@ -1,0 +1,139 @@
+.create-post__container {
+  margin-inline: auto;
+  margin-top: 60px;
+  width: 1100px;
+  height: 100%;
+  color: #212529;
+  background-color: #fff;
+  padding: 40px 80px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-post__heading {
+  color: #69db7c;
+  font-size: 2.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.create-post__sub-heading {
+  color: #ff4075;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.create-post__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 580px;
+}
+
+.create-post__label {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 1.6rem 0 0.5rem 0;
+  color: #69db7c;
+  width: 100%;
+  text-align: start;
+}
+
+.create-post__field {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+
+  background-color: inherit;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+textarea {
+  height: 240px;
+  font-family: inherit;
+  line-height: 1.6;
+}
+
+.create-post-btn {
+  margin-top: auto;
+  align-self: center;
+  padding: 1rem 2rem;
+  background-color: #69db7c;
+  border: 1px solid #69db7c;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.create-post-btn:hover,
+.create-post-btn:active {
+  background-color: #ff4075;
+  border: 1px solid #ff4075;
+  color: #fff;
+}
+
+@media (max-width: 72em) {
+  .create-post__container {
+    width: 700px;
+    height: 100%;
+  }
+
+  .create-post__heading {
+    font-size: 2.4rem;
+  }
+
+  .create-post__label {
+    font-size: 1.4rem;
+  }
+
+  .create-post__field {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 46em) {
+  .create-post__container {
+    width: 480px;
+  }
+
+  .create-post__sub-heading,
+  .create-post-btn {
+    font-size: 0.8rem;
+  }
+
+  .create-post__heading {
+    font-size: 2rem;
+  }
+
+  .create-post__label {
+    font-size: 1.2rem;
+  }
+  textarea {
+    height: 260px;
+  }
+}
+
+@media (max-width: 31em) {
+  .create-post__container {
+    width: 300px;
+    padding: 40px 30px;
+  }
+
+  .create-post__heading {
+    font-size: 2rem;
+  }
+
+  .create-post__sub-heading {
+    font-size: 0.7rem;
+  }
+
+  .create-post__label {
+    font-size: 1rem;
+  }
+  textarea {
+    height: 280px;
+  }
+}

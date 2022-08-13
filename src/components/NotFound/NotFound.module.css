@@ -1,0 +1,55 @@
+.not-found__container {
+  margin-inline: auto;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: #212529;
+  background-color: #fff;
+  padding: 40px 80px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.not-found__heading {
+  color: #69db7c;
+  font-size: 2.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.not-found__btn-login:link,
+.not-found__btn-login:visited,
+.not-found__btn-register:link,
+.not-found__btn-register:visited {
+  text-decoration: none;
+  padding: 0.7rem 1.4rem;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.not-found__btn-login {
+  background-color: #69db7c;
+  border: 1px solid #69db7c;
+  margin-right: 3.2rem;
+}
+
+.not-found__btn-login:hover,
+.not-found__btn-login:active {
+  background-color: #ff4075;
+  border: 1px solid #ff4075;
+}
+
+.not-found__btn-register {
+  background-color: #ff4075;
+  border: 1px solid #ff4075;
+}
+
+.not-found__btn-register:hover,
+.not-found__btn-register:active {
+  background-color: #69db7c;
+  border: 1px solid #69db7c;
+}

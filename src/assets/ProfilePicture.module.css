@@ -1,0 +1,37 @@
+.profile__picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 85px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #69db7c;
+  margin: 0 32px 0 0;
+}
+
+.profile__picture {
+  width: 80px;
+  height: 80px;
+}
+
+.profile__picture-comment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  background-color: #69db7c;
+}
+
+.profile__picture-comment {
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 46em) {
+  .profile__picture-container {
+    margin: 0;
+  }
+}
